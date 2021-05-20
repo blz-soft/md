@@ -40,3 +40,9 @@ Github Markdown Previewというのもある
 > Enable Zenkaku
 > Disable Zenkaku
 ```
+## vscode関係ない
+### gif作成
+[ScreenToGif](https://github.com/NickeManarin/ScreenToGif)
+手順書に動画やgifをつけれればきっとわかりやすいと思うので使っていきたい。
+
+
