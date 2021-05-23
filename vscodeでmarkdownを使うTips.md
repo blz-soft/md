@@ -3,23 +3,23 @@
 ### プレビュー表示
 `Ctl k → v`
 ### 改行設定
-`"markdown.preview.breaks": true,`を`settings.json`に追加する
+`"markdown.preview.breaks": true,`を`settings.json`に追加する。
 ### スタイル変更(cssを使う場合)
-ユーザー設定に`"markdown.styles":["md_preview.css"]`を入れ、
-このフォルダにある`md_preview.css`をスタイリングしたいファイルと同じ階層に格納すれば利用できる
-絶対パス設定ができず、やり方教えてほしい
+ユーザー設定に`"markdown.styles":["md_preview.css"]`を入れ、  
+このフォルダにある`md_preview.css`をスタイリングしたいファイルと同じ階層に格納すれば利用できる。  
+絶対パス設定ができず、やり方教えてほしい。  
 ### スタイル変更(拡張機能を使う場合)
-[Markdown Preview Github Styling](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles)を追加する
+[Markdown Preview Github Styling](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles)を追加する  
 Github Markdown Previewというのもある
 
 ### 画像貼り付け
-[Paste Image](https://marketplace.visualstudio.com/items?itemName=mushan.vscode-paste-image)を追加する
-画像をクリップボードに保持した状態で、`Ctrl Alt v`を押すとカーソル位置に画像が追加される
+[Paste Image](https://marketplace.visualstudio.com/items?itemName=mushan.vscode-paste-image)を追加する  
+画像をクリップボードに保持した状態で、`Ctrl Alt v`を押すとカーソル位置に画像が追加される。
 ![](https://raw.githubusercontent.com/mushanshitiancai/vscode-paste-image/master/res/vscode-paste-image.gif)
 
 ### PDFファイルにエクスポート
-[Markdown PDF](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf)を追加する
-改行が反映されるようにするためには、`settings.json`に`"markdown-pdf.breaks": true,`を追記する
+[Markdown PDF](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf)を追加する。  
+改行が反映されるようにするためには、`settings.json`に`"markdown-pdf.breaks": true,`を追記する。
 
 
 ## Markdown関係ない
@@ -31,11 +31,11 @@ Github Markdown Previewというのもある
 [HTMLPreview](https://marketplace.visualstudio.com/items?itemName=tht13.html-preview-vscode)
 ### (){}色付け
 [Bracket Pair Colorzier](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
-![](https://raw.githubusercontent.com/CoenraadS/BracketPair/master/images/example.png)
+![](https://raw.githubusercontent.com/CoenraadS/BracketPair/master/images/example.png)  
 ### 全角色付け
 [zenkaku](https://marketplace.visualstudio.com/items?itemName=mosapride.zenkaku)
-![](https://raw.githubusercontent.com/mosapride/vscode-zenkaku/images/readme01.png)
-コマンドパレット`Ctrl Shift p`で以下のコマンド使い、機能をON,OFFする
+![](https://raw.githubusercontent.com/mosapride/vscode-zenkaku/images/readme01.png)  
+コマンドパレット`Ctrl Shift p`で以下のコマンド使い、機能をON,OFFする。
 ```
 > Enable Zenkaku
 > Disable Zenkaku
