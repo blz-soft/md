@@ -2,13 +2,15 @@
 
 ### プレビュー表示
 `Ctl k → v`
-### 改行設定
-`"markdown.preview.breaks": true,`を`settings.json`に追加する。
-### スタイル変更(cssを使う場合)
+### 改行設定 (やっぱりやらないほうがいい)
+`"markdown.preview.breaks": true,`を`settings.json`に追加する。     
+[追記]Gitではダブルスペースを入れないと改行と認識してくれないので、この設定はしないほうがいい。
+### スタイル変更
+#### cssを使う場合
 ユーザー設定に`"markdown.styles":["md_preview.css"]`を入れ、  
-このフォルダにある`md_preview.css`をスタイリングしたいファイルと同じ階層に格納すれば利用できる。  
+このフォルダにある`md_preview.css`をスタイリングしたいファイルと同じ階層に格納すれば利用できる。    
 絶対パス設定ができず、やり方教えてほしい。  
-### スタイル変更(拡張機能を使う場合)
+#### 拡張機能を使う場合
 [Markdown Preview Github Styling](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles)を追加する  
 Github Markdown Previewというのもある
 
@@ -30,10 +32,10 @@ Github Markdown Previewというのもある
 ### HTMl表示
 [HTMLPreview](https://marketplace.visualstudio.com/items?itemName=tht13.html-preview-vscode)
 ### (){}色付け
-[Bracket Pair Colorzier](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
+[Bracket Pair Colorzier](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)  
 ![](https://raw.githubusercontent.com/CoenraadS/BracketPair/master/images/example.png)  
 ### 全角色付け
-[zenkaku](https://marketplace.visualstudio.com/items?itemName=mosapride.zenkaku)
+[zenkaku](https://marketplace.visualstudio.com/items?itemName=mosapride.zenkaku)    
 ![](https://raw.githubusercontent.com/mosapride/vscode-zenkaku/images/readme01.png)  
 コマンドパレット`Ctrl Shift p`で以下のコマンド使い、機能をON,OFFする。
 ```
